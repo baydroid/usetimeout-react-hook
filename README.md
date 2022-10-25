@@ -20,6 +20,18 @@
 
 > React.js custom hook that sets a leak-safe timeout and returns a function to cancel it before the timeout expires.
 
+## Why this fork?
+
+This fork is is almost exactly identical to the original.
+
+It's intended to avoid version check issues which otherwise needlessly block usetimeout-react-hook from working with later versions of react-native.
+(The only things the code imports from react are the useEffect() and useRef() functions, neither of which seems likely to change in the forseeable future.)
+
+The differences from the orginal are:
+- package-lock.json removed;
+- package.json peerDependencies section modified;
+- And this section added to README.md.
+
 ## Install
 
 ```sh

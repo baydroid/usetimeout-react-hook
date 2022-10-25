@@ -47,8 +47,8 @@
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react-native": ">=0.63.4",
+    "react": "*"
   },
   "jest": {
     "preset": "ts-jest",
