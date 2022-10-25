@@ -30,12 +30,12 @@ It's intended to avoid version check issues which otherwise needlessly block use
 The differences from the orginal are:
 - package-lock.json removed;
 - package.json peerDependencies section modified;
-- And this section added to README.md.
+- And README.md modified.
 
 ## Install
 
 ```sh
-npm install usetimeout-react-hook
+npm install https://github.com/baydroid/usetimeout-react-hook
 ```
 
 ## 🔑 Key features
