@@ -1,22 +1,4 @@
 <h1 align="center">usetimeout-react-hook</h1>
-<p>
-  <a href="https://travis-ci.org/jkomyno/usetimeout-react-hook.svg?branch=master">
-    <img alt="Build Status" src="https://travis-ci.org/jkomyno/usetimeout-react-hook.svg?branch=master" target="_blank" />
-  </a>
-  <a href="https://coveralls.io/github/jkomyno/usetimeout-react-hook?branch=master">
-    <img alt="Coverage Status" src="https://coveralls.io/repos/jkomyno/usetimeout-react-hook/badge.svg?branch=master" target="_blank" />
-  </a>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.2-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/jkomyno/usetimeout-react-hook#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/jkomyno/usetimeout-react-hook/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/jkomyno/usetimeout-react-hook/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
-</p>
 
 > React.js custom hook that sets a leak-safe timeout and returns a function to cancel it before the timeout expires.
 
@@ -29,8 +11,11 @@ It's intended to avoid version check issues which otherwise needlessly block use
 
 The differences from the orginal are:
 - package-lock.json removed;
-- package.json peerDependencies section modified;
+- package.json modified;
+- tsconfig.json modified;
 - And README.md modified.
+
+The typescript source (in src) is exactly identical to the original.
 
 ## Install
 
