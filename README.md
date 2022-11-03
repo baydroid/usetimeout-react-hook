@@ -10,6 +10,8 @@ It's intended to avoid version check issues which otherwise needlessly block use
 (The only things the code imports from react are the useEffect() and useRef() functions, neither of which seems likely to change in the forseeable future.)
 
 The differences from the orginal are:
+- build procedure simplified to not use rollup;
+- tests removed;
 - package-lock.json removed;
 - package.json modified;
 - tsconfig.json modified;
