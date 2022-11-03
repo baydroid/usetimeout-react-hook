@@ -134,27 +134,6 @@ type UseTimeout = <T>(callback: () => void, timeout: number, timeHandler: Timeou
 
 ---------------------------------------------------------
 
-## ✔️ Run tests
-
-Tests are run using [**jest**](https://jestjs.io), at the end of the test a coverage table should appear.
-
-```sh
-npm run test
-```
-
-## 🚀 Build package
-
-This package is built using **TypeScript**, so the source needs to be converted in JavaScript before being usable by the users.
-**usetimeout** uses [**Rollup**](https://rollupjs.org) as build system, and the JavaScript module formats it's been configured to support are:
-
-* CommonJS: module format used by Node (using `require` function).
-* ESM: modern module format (using `import` syntax).
-* UMD: Universal Module Definition, to be able to import it directly in the browser (not as popular these days).
-
-```sh
-npm run build
-```
-
 ## 👤 Author
 
 **Alberto Schiabel**
